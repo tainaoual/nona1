@@ -1,17 +1,12 @@
-import babysitter.WageCalculator;
+
+//import babysitter.WageCalculator;
 import fizz_buzz.FizzBuzz;
-
 public class Main {
-
     public static void main(String args[]) {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        fizzBuzz.implement(200,400);
 
-
-        WageCalculator wageCalculator = new WageCalculator();
-        double calculate = wageCalculator.calculateShiftWage("17", "18", 20);
-
-        System.out.println("Calculate " + calculate);
 
 
     }
-
 }
