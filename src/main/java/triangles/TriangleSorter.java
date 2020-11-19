@@ -19,16 +19,19 @@ public class TriangleSorter {
                 || (Math.abs(sideA * sideA + sideC * sideC - sideB * sideB) < 0.2)
                 || (Math.abs(sideC * sideC + sideB * sideB - sideA * sideA) < 0.2))
             type = "right triangle";
-        else if ((sideA == sideB & sideB != sideC) || (sideA != sideB & sideC == sideA) || (sideC == sideB & sideC != sideA))
+        else if ((sideA == sideB & sideB != sideC)
+                || (sideA != sideB & sideC == sideA)
+                || (sideC == sideB & sideC != sideA))
             type = "isosceles";
-        else if (sideA != sideB & sideB != sideC & sideA != sideC)
-            type = "Other type triangle";
-
-             else if (sideA + sideB > sideC)
-             return type = "inequality triangle";
+        else if (sideA +sideB <=sideC )
+            type = "inequality triangle";
+//             else if( (sideA + sideB > sideC)
+//                      ||(sideB + sideC > sideA)
+//                      ||(sideC + sideA > sideB))
+//                      //||(sideA != sideB & sideB != sideC & sideA != sideC))
+//             return type = "inequality triangle";
         else {
-
-        return type = "inequality triangle";
+            type = "Other type triangle";
 
 
     }

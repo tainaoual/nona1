@@ -1,20 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="triangles.TrianglesTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2020-11-16T08:53:54" hostname="UNIT2020-25" time="0.098">
-  <properties/>
-  <testcase name="threeEqualSidesIsAnEquilateralTriangle()" classname="triangles.TrianglesTest" time="0.079"/>
-  <testcase name="canOnlyBeJoinedIntoATriangleThatIsNotIsoscelesOrAnRightOrEquilateralTriangle()" classname="triangles.TrianglesTest" time="0.001"/>
-  <testcase name="TriangleCannotBeMade()" classname="triangles.TrianglesTest" time="0.011">
-    <failure message="org.opentest4j.AssertionFailedError: &#13;&#10;Expecting:&#13;&#10; &lt;&quot;Other type triangle&quot;&gt;&#13;&#10;to be equal to:&#13;&#10; &lt;&quot;inequality triangle&quot;&gt;&#13;&#10;but was not." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BabySitterTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BabySitterTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/babysitter.html">babysitter</a> &gt; BabySitterTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.113s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="withOneHourPreBedtimeAndFourHoursPostMidnightPostBedtimeHoursWouldPayDay54()"></a>
+<h3 class="failures">withOneHourPreBedtimeAndFourHoursPostMidnightPostBedtimeHoursWouldPayDay54()</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: 
 Expecting:
- &lt;&quot;Other type triangle&quot;&gt;
+ &lt;60.0&gt;
 to be equal to:
- &lt;&quot;inequality triangle&quot;&gt;
+ &lt;54.0&gt;
 but was not.
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at triangles.TrianglesTest.TriangleCannotBeMade(TrianglesTest.java:44)
+	at babysitter.BabySitterTest.withOneHourPreBedtimeAndFourHoursPostMidnightPostBedtimeHoursWouldPayDay54(BabySitterTest.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,10 +175,47 @@ but was not.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-</failure>
-  </testcase>
-  <testcase name="threeDifferentSidesIsAnRightTriangle()" classname="triangles.TrianglesTest" time="0.001"/>
-  <testcase name="towEqualSidesAndOneDifferentIsIsoscelesTriangle()" classname="triangles.TrianglesTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">withOneHourPreBedtimeAndFourHoursPostMidnightPostBedtimeHoursWouldPayDay54()</td>
+<td class="failures">0.113s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>*********************
+ hours 19 24.0 5.0
+12 hours 0.0 60.0
+ howmany hours 0.0 starting 19.0 ending 24.0 howmany hours 0.0 starting 19.0 ending 24.021.0bedtimeHow Many hours 0.0 Salary 60.0
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at Nov 18, 2020, 11:12:30 PM</p>
+</div>
+</div>
+</body>
+</html>
