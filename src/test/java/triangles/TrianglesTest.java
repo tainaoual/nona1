@@ -3,14 +3,6 @@ package triangles;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
-
-//>   1. Can be joined into an isosceles triangle. (example: 5, 5, 3);
-//        >   1. Can be joined into a right triangle. (example: 3, 4, 5);
-//        >   1. Can only be joined into a triangle that is not one of the preceding cases. (example: 2, 3, 4)
-//        >   1. Cannot be made 1. Can be joined into an equilateral triangle. (example: 3, 3, 3)into a triangle.
-//            (example: 2, 3, 5) [Warning: might look isosceles at first glance.]
-//        >
 public class TrianglesTest {
     @Test
     public void threeEqualSidesIsAnEquilateralTriangle() {

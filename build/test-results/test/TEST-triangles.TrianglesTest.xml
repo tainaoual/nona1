@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="triangles.TrianglesTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-20T03:49:42" hostname="UNIT2020-25" time="0.072">
+  <properties/>
+  <testcase name="threeEqualSidesIsAnEquilateralTriangle()" classname="triangles.TrianglesTest" time="0.062"/>
+  <testcase name="canOnlyBeJoinedIntoATriangleThatIsNotIsoscelesOrAnRightOrEquilateralTriangle()" classname="triangles.TrianglesTest" time="0.002"/>
+  <testcase name="TriangleCannotBeMade()" classname="triangles.TrianglesTest" time="0.001"/>
+  <testcase name="threeDifferentSidesIsAnRightTriangle()" classname="triangles.TrianglesTest" time="0.001"/>
+  <testcase name="towEqualSidesAndOneDifferentIsIsoscelesTriangle()" classname="triangles.TrianglesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

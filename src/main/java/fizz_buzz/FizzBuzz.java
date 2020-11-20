@@ -67,17 +67,11 @@ public class FizzBuzz {
         return result;
     }
     public void implement( Integer minimum, Integer maximum) {
-        System.out.println("Minimum "+minimum);
-        System.out.println("Maximum "+maximum); //0, 99999
         if(minimum > 0 && maximum > 0) {
             if (maximum > minimum)
                 for (int i = minimum; i <= maximum; i++) {
-                    System.out.println(convertToWords(i));
                 }
-            else
-                System.out.println("Maximum is lower than minimun");
         }else{
-            System.out.println("Positive numbers only");
         }
     }
     public String convertToWords(int intValue){
@@ -120,7 +114,7 @@ public class FizzBuzz {
         }
         if(ten == 1 ){
             result += " " + ZeroToNineteen[10+intValue];
-        }else{
+        }else {
             if (ten > 0) {
                 result += " " + tenToNinety[ten];
             }
@@ -128,7 +122,6 @@ public class FizzBuzz {
                 result += " " + ZeroToNineteen[intValue];
             }
         }
-        // System.out.println("Number "+result);
         return result;
     }
 }

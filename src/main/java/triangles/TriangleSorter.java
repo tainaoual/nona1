@@ -6,7 +6,6 @@ import java.util.Collections;
 import java.util.List;
 public class TriangleSorter {
     String type = "";
-    //    public String analyze(int sideA, int sideB, int sideC) {
     public String analyze(int... sides) {
         ArrayList<Integer> sidesToSort = new ArrayList<>(List.of(sides[0], sides[1], sides[2]));
         Collections.sort(sidesToSort);
@@ -25,15 +24,8 @@ public class TriangleSorter {
             type = "isosceles";
         else if (sideA +sideB <=sideC )
             type = "inequality triangle";
-//             else if( (sideA + sideB > sideC)
-//                      ||(sideB + sideC > sideA)
-//                      ||(sideC + sideA > sideB))
-//                      //||(sideA != sideB & sideB != sideC & sideA != sideC))
-//             return type = "inequality triangle";
         else {
             type = "Other type triangle";
-
-
     }
         return type;
     }}
