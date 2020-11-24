@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="babysitter.BabySitterTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-11-24T21:23:00" hostname="UNIT2020-25" time="0.095">
+  <properties/>
+  <testcase name="bedTimeWillBeBetween20And23()" classname="babysitter.BabySitterTest" time="0.063"/>
+  <testcase name="withOneHourPreBedtimeAndFourHoursPreMidnightPostBedtimeHoursWouldPayDay20()" classname="babysitter.BabySitterTest" time="0.001"/>
+  <testcase name="withOneHourPreBedtimeAndFourHoursPreMidnightPostBedtimeHoursWouldPayDay45()" classname="babysitter.BabySitterTest" time="0.002"/>
+  <testcase name="withOneHourPreBedtimeAndFourHoursPreMidnightPostBedtimeHoursWouldPayDay60()" classname="babysitter.BabySitterTest" time="0.003"/>
+  <testcase name="paid4HourFromTheChildrenBedtimeToMidnight()" classname="babysitter.BabySitterTest" time="0.002"/>
+  <testcase name="paid$8HourFromBedtimeToMidnight()" classname="babysitter.BabySitterTest" time="0.001"/>
+  <testcase name="oneHourPreBedTimeShouldPay12()" classname="babysitter.BabySitterTest" time="0.001"/>
+  <testcase name="paid12$AHourFromTheStartOfTheirShiftToTheChildrenBedtime()" classname="babysitter.BabySitterTest" time="0.001"/>
+  <testcase name="paid$16HourFromMidnightToTheEndOfTheirShift()" classname="babysitter.BabySitterTest" time="0.001"/>
+  <testcase name="MidnightToEndingShouldPay()" classname="babysitter.BabySitterTest" time="0.002"/>
+  <testcase name="allowPartialHourPayAndTakeStartEndTimesAStringArguments()" classname="babysitter.BabySitterTest" time="0.002"/>
+  <testcase name="withOneHourPreBedtimeAndFourHoursPreMidnightPostBedtimeHoursWouldPayDay()" classname="babysitter.BabySitterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -85,7 +85,8 @@ You should use military/24 hour format for the start/end times.
 
 ##### Variations:
 
-* Create a minimum wage rule and ensure that the babysitter does not receive pay that falls below the minimum wage for the entire shift.  For example a minimum wage of $9:
+* Create a minimum wage rule and ensure that the babysitter does not receive pay that falls below the minimum wage 
+for the entire shift.  For example a minimum wage of $9:
   * With one hour pre-bedtime and four hours pre midnight/post bedtime hours would pay $45.
   * With one hour pre-bedtime and one hour  pre midnight/post bedtime hours would remain $20.
 * Allow partial hour pay and take start/end times as String arguments.
